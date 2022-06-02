@@ -1,0 +1,49 @@
+name: Bug Report
+description: File a bug report
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form to report an issue with a piece of premium content that Foundry has ownership over
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Also tell us, what did you expect to happen?
+      placeholder: Tell us what you see!
+      value: "A bug happened!"
+    validations:
+      required: true
+  - type: dropdown
+    id: package
+    attributes:
+      label: What package are you reporting this for?
+      multiple: false
+      options:
+        - "Pathfinder: Beginner Box by Paizo"
+        - "Pathfinder: Abomination Vaults by Paizo"
+        - "Tome of Beasts by Kobold Press"
+        - "Book of Lairs by Kobold Press"
+        - "The Red Opera by Apotheosis Studios"
+        - "Sirens - Battle of the Bards by Apotheosis Studios"
+        - "The Demon Queen Awakens by Foundry Virtual Tabletop"
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: What version of the package?
+      options:
+        - 1.0.2 (Default)
+        - 1.0.3 (Edge)
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant log output
+      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
+      render: shell
