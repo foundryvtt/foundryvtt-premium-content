@@ -36,9 +36,7 @@ body:
     attributes:
       label: Version
       description: What version of the package?
-      options:
-        - 1.0.2 (Default)
-        - 1.0.3 (Edge)
+      placeholder: 1.0.0
     validations:
       required: true
   - type: textarea
