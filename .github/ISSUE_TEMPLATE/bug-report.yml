@@ -29,6 +29,7 @@ body:
         - "The Red Opera by Apotheosis Studios"
         - "Sirens - Battle of the Bards by Apotheosis Studios"
         - "The Demon Queen Awakens by Foundry Virtual Tabletop"
+        - "Atropos' Patreon Battlemaps by Foundry Virtual Tabletop"
     validations:
       required: true
   - type: input
