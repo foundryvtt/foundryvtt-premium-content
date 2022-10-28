@@ -3,6 +3,7 @@ Issue tracking for Foundry Virtual Tabletop premium content products which are m
 
 Use this repository to submit issues for the following products:
 
+* A House Divivded
 * Pathfinder: Beginner Box by Paizo
 * Pathfinder: Abomination Vaults by Paizo
 * Tome of Beasts by Kobold Press
