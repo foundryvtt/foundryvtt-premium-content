@@ -11,5 +11,7 @@ Use this repository to submit issues for the following products:
 * The Red Opera by Apotheosis Studios
 * Sirens - Battle of the Bards by Apotheosis Studios
 * The Demon Queen Awakens by Foundry Virtual Tabletop
+* Atropos Patreon Battlemaps by Foundry Virtual Tabletop
+* Pathfinder Token Pack: Bestiaries
 
 For projects not on this list, issues should be reported somewhere else. Please consult the respective package page on https://foundryvtt.com/packages to find out where.
