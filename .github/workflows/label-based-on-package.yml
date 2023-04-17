@@ -9,10 +9,10 @@ jobs:
   apply-label:
     runs-on: ubuntu-latest
     steps:
-      - name: Extract package selection
+      - name: Extract package selected
         run: |
           package=$(echo "$BODY" | grep -oP "(?<=### What package are you reporting this for?\n\n).*?(?=\n\n### Version)" | tr '[:upper:] ' '[:lower:]-' | tr -d :)
-          echo "::set-env name=package::${package}"
+          echo "package=$package" >> $GITHUB_ENV
       
       - name: Apply label
         uses: actions-ecosystem/action-add-labels@v1
