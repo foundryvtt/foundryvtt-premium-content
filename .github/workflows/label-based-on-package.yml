@@ -3,18 +3,16 @@ name: Apply label based on package selection
 on:
   issues:
     types: [opened]
-
+env:
+  BODY: ${{ github.event.issue.body }}
 jobs:
   apply-label:
     runs-on: ubuntu-latest
     steps:
-      - name: Debug
-        id: debug
-        run: echo ${{ toJson(github.event.issue) }}
-        
       - name: Extract package selection
-        id: extract_package
-        run: echo "::set-output name=package::${{ toJson(fromJson(github.event.issue.body).package)}}"
+        run: |
+          package=$(echo "$BODY" | grep -oP "(?<=### What package are you reporting this for?\n\n).*?(?=\n\n### Version)" | tr '[:upper:] ' '[:lower:]-' | tr -d :)
+          echo "::set-env name=package::${package}"
       
       - name: Apply label
         uses: actions-ecosystem/action-add-labels@v1
