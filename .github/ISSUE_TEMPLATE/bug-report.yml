@@ -22,16 +22,16 @@ body:
       label: What package are you reporting this for?
       multiple: false
       options:
-        - "A House Divided"
-        - "Pathfinder: Beginner Box by Paizo"
-        - "Pathfinder: Abomination Vaults by Paizo"
-        - "Tome of Beasts by Kobold Press"
-        - "Book of Lairs by Kobold Press"
-        - "The Red Opera by Apotheosis Studios"
-        - "Sirens - Battle of the Bards by Apotheosis Studios"
-        - "The Demon Queen Awakens by Foundry Virtual Tabletop"
-        - "Atropos' Patreon Battlemaps by Foundry Virtual Tabletop"
-        - "Pathfinder Token Pack: Bestiaries"
+      - "The Demon Queen Awakens"
+      - "A House Divided"
+      - "Pathfinder: Beginner Box"
+      - "Pathfinder: Abomination Vaults"
+      - "Pathfinder Token Pack: Bestiaries"
+      - "Atropos' Patreon Battlemaps"
+      - "Tome of Beasts by Kobold Press"
+      - "Book of Lairs by Kobold Press"
+      - "The Red Opera by Apotheosis Studios"
+      - "Sirens - Battle of the Bards by Apotheosis Studios""
     validations:
       required: true
   - type: input
