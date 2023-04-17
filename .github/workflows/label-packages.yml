@@ -1,0 +1,19 @@
+- name: Label Packages
+  uses: github/issue-labeler@v3.1
+  with:
+    # The GITHUB_TOKEN secret
+    repo-token: 
+    # Path to the labeler.yml configuration file
+    configuration-path: 
+    # Controls if versioned regex templates are being used
+    enable-versioned-regex: 
+    # The regex version number to use. Only required if using versioned regex files
+    versioned-regex: # optional
+    # Is optional and will result in any issues prior to this timestamp to be ignored
+    not-before: # optional
+    # The name of the label that should be added to an issue where the specified `version-regex` can not be found.
+    body-missing-regex-label: # optional
+    # Include the title in addition to the body in the regex target
+    include-title: # optional, default is 0
+    # Remove the label from the issue if the label regex does not match
+    sync-labels: # optional, default is 0
