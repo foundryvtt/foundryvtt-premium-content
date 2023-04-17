@@ -9,13 +9,14 @@ jobs:
   apply-label:
     runs-on: ubuntu-latest
     steps:
-      - name: Extract package selected
+      - name: Extract package
+        id: package
         run: |
-          package=$(echo "$BODY" | grep -oP "(?<=### What package are you reporting this for?\n\n).*?(?=\n\n### Version)" | tr '[:upper:] ' '[:lower:]-' | tr -d :)
-          echo "package=$package" >> $GITHUB_ENV
-      
-      - name: Apply label
-        uses: actions-ecosystem/action-add-labels@v1
+          package=$(echo "${{ github.event.issue.body }}" | grep -oP "(?<=### What package are you reporting this for?\n\n).*?(?=\n\n### Version)" | tr '[:upper:] ' '[:lower:]-' | tr -d :)
+          echo "::set-output name=package::${package}"
+
+      - name: Add label to issue
+        uses: peter-evans/add-labels@v2
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          labels: ${{ steps.extract_package.outputs.package }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          labels: ${{ steps.package.outputs.package }}, bug
