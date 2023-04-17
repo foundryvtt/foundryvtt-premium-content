@@ -16,7 +16,8 @@ jobs:
           echo "::set-output name=package::${package}"
 
       - name: Add label to issue
-        uses: peter-evans/add-labels@v2
+        uses: actions-ecosystem/action-add-labels@v1
         with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
           labels: ${{ steps.package.outputs.package }}, bug
+          issue-number: ${{ github.event.issue.number }}
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
