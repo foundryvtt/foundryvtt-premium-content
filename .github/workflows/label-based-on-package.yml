@@ -10,7 +10,7 @@ jobs:
     steps:
       - name: Debug
         id: debug
-        run: echo ${{ github.event.issue }}
+        run: echo ${{ toJson(github.event.issue) }}
         
       - name: Extract package selection
         id: extract_package
