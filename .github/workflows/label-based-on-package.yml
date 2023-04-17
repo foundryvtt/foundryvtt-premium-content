@@ -8,6 +8,10 @@ jobs:
   apply-label:
     runs-on: ubuntu-latest
     steps:
+      - name: Debug
+        id: debug
+        run: echo ${{ github.event.issue.body }}
+        
       - name: Extract package selection
         id: extract_package
         run: echo "::set-output name=package::${{ toJson(fromJson(github.event.issue.body).package)}}"
