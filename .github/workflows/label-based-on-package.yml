@@ -1,0 +1,19 @@
+name: Apply label based on package selection
+
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  apply-label:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Extract package selection
+        id: extract_package
+        run: echo "::set-output name=package::${{ toJson(fromJson(github.event.issue.body).package)}}"
+      
+      - name: Apply label
+        uses: actions-ecosystem/action-add-labels@v1
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          labels: ${{ steps.extract_package.outputs.package }}
