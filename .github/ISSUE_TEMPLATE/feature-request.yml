@@ -1,0 +1,32 @@
+name: Feature Request
+description: Request a new feature
+title: "[Feature]: "
+labels: ["Feature"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form to suggest a new feature for a piece of premium content that Foundry has ownership over
+  - type: textarea
+    id: feature
+    attributes:
+      label: What is the feature?
+    validations:
+      required: true
+  - type: dropdown
+    id: package
+    attributes:
+      label: What package are you reporting this for?
+      multiple: false
+      options:
+      - "The Demon Queen Awakens"
+      - "A House Divided"
+      - "Pathfinder: Beginner Box"
+      - "Pathfinder: Abomination Vaults"
+      - "Pathfinder Token Pack: Bestiaries"
+      - "Pathfinder: Harrow Deck"
+      - "Patreon Battlemaps by Atropos"
+      - "Tome of Beasts by Kobold Press"
+      - "Book of Lairs by Kobold Press"
+      - "The Red Opera by Apotheosis Studios"
+      - "Sirens - Battle of the Bards by Apotheosis Studios"
