@@ -2,6 +2,10 @@ a-house-divided:
     - 'A House Divided'
 demon-queen-awakens:
     - 'The Demon Queen Awakens'
+ferncombe:   
+    - 'Ferncombe'
+atropos-patreon-battlemaps:
+    - 'Patreon Battlemaps by Atropos'
 
 pf2e-beginner-box:
     - 'Pathfinder: Beginner Box'
@@ -11,9 +15,8 @@ pf2e-tokens-bestiaries:
     - 'Pathfinder Token Pack: Bestiaries'
 pf2e-decks-harrow:
     - 'Pathfinder: Harrow Deck'
-    
-atropos-patreon-battlemaps:
-  - 'Patreon Battlemaps by Atropos'
+pf2e-kingmaker:
+    - 'Pathfinder: Kingmaker'
   
 kp-tome-of-beasts:
   - 'Tome of Beasts by Kobold Press'
