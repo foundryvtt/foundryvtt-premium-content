@@ -31,10 +31,9 @@ body:
       - "Pathfinder Token Pack: Bestiaries"
       - "Pathfinder: Harrow Deck"
       - "Pathfinder: Kingmaker"
+      - "Phandelver and Below: The Shattered Obelisk"
       - "Tome of Beasts by Kobold Press"
       - "Book of Lairs by Kobold Press"
-      - "The Red Opera by Apotheosis Studios"
-      - "Sirens - Battle of the Bards by Apotheosis Studios"
     validations:
       required: true
   - type: input
