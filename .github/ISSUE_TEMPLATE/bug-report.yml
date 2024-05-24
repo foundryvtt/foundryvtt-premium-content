@@ -32,8 +32,7 @@ body:
       - "Pathfinder: Harrow Deck"
       - "Pathfinder: Kingmaker"
       - "Phandelver and Below: The Shattered Obelisk"
-      - "Tome of Beasts by Kobold Press"
-      - "Book of Lairs by Kobold Press"
+      - "Tasha's Cauldron of Everything"
     validations:
       required: true
   - type: input
