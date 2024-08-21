@@ -16,7 +16,9 @@ pf2e-beginner-box:
 pf2e-abomination-vaults:
     - 'Pathfinder: Abomination Vaults'
 pf2e-tokens-bestiaries:
-    - 'Pathfinder Token Pack: Bestiaries'
+    - 'Pathfinder Tokens: Bestiaries'
+pf2e-tokens-characters:
+    - 'Pathfinder Tokens: Characters'
 pf2e-decks-harrow:
     - 'Pathfinder: Harrow Deck'
 pf2e-kingmaker:
