@@ -14,11 +14,9 @@ Use this repository to submit issues for the following products:
 * Pathfinder: Kingmaker
 * Pathfinder Token Pack: Bestiaries
 * Pathfinder Deck: Harrow
-##### Kobold Press
-* Tome of Beasts
-* Book of Lairs
-##### Apotheosis Studios
-* The Red Opera
-* Sirens - Battle of the Bards 
+##### Wizards of the Coast
+* Phandelver and Below: The Shattered Obelisk
+* Tasha's Cauldron of Everything
+* Dungeons & Dragons Player's Handbook
 
 For projects not on this list, issues should be reported somewhere else. Please consult the respective package page on https://foundryvtt.com/packages to find out where.
