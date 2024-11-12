@@ -12,6 +12,8 @@ dnd-tashas-cauldron:
     - "Tasha's Cauldron of Everything"
 dnd-players-handbook:
     - "Dungeons & Dragons Player's Handbook"
+dnd-dungeon-masters-guide:
+    - "Dungeons & Dragons Dungeon Master's Guide"
 
 pf2e-beginner-box:
     - 'Pathfinder: Beginner Box'
