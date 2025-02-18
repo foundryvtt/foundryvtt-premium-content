@@ -14,6 +14,8 @@ dnd-players-handbook:
     - "Dungeons & Dragons Player's Handbook"
 dnd-dungeon-masters-guide:
     - "Dungeons & Dragons Dungeon Master's Guide"
+dnd-monster-manual:
+    - "Dungeons & Dragons Monster Manual"
 
 pf2e-beginner-box:
     - 'Pathfinder: Beginner Box'
