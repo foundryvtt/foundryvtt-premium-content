@@ -17,6 +17,8 @@ Use this repository to submit issues for the following products:
 ##### Wizards of the Coast
 * Phandelver and Below: The Shattered Obelisk
 * Tasha's Cauldron of Everything
-* Dungeons & Dragons Player's Handbook
+* Player's Handbook (2024)
+* Dungeon Master's Guide (2024)
+* Monster Manual (2024)
 
 For projects not on this list, issues should be reported somewhere else. Please consult the respective package page on https://foundryvtt.com/packages to find out where.
