@@ -12,7 +12,10 @@ Use this repository to submit issues for the following products:
 * Pathfinder: Beginner Box
 * Pathfinder: Abomination Vaults
 * Pathfinder: Kingmaker
-* Pathfinder Token Pack: Bestiaries
+* Pathfinder: Claws of the Tyrant
+* Pathfinder Tokens: Bestiaries
+* Pathfinder Tokens: Character Gallery
+* Pathfinder Tokens: Myth and Magic
 * Pathfinder Deck: Harrow
 ##### Wizards of the Coast
 * Phandelver and Below: The Shattered Obelisk
