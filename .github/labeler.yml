@@ -21,11 +21,15 @@ pf2e-beginner-box:
     - 'Pathfinder: Beginner Box'
 pf2e-abomination-vaults:
     - 'Pathfinder: Abomination Vaults'
+pf2e-kingmaker:
+    - 'Pathfinder: Kingmaker'
+pf2e-claws-of-the-tyrant:
+    - 'Pathfinder: Claws of the Tyrant'
 pf2e-tokens-bestiaries:
     - 'Pathfinder Tokens: Bestiaries'
 pf2e-tokens-characters:
-    - 'Pathfinder Tokens: Characters'
+    - 'Pathfinder Tokens: Character Gallery'
+pf2e-tokens-myth-and-magic:
+    - 'Pathfinder Tokens: Myth and Magic'
 pf2e-decks-harrow:
     - 'Pathfinder: Harrow Deck'
-pf2e-kingmaker:
-    - 'Pathfinder: Kingmaker'
