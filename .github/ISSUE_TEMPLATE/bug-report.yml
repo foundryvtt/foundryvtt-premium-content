@@ -34,11 +34,12 @@ body:
       - "Pathfinder Tokens: Character Gallery"
       - "Pathfinder Tokens: Myth and Magic"
       - "Pathfinder: Harrow Deck"
-      - "Phandelver and Below: The Shattered Obelisk"
-      - "Tasha's Cauldron of Everything"
+      - "Dungeons & Dragons Phandelver and Below: The Shattered Obelisk"
+      - "Dungeons & Dragons Tasha's Cauldron of Everything"
       - "Dungeons & Dragons Player's Handbook"
       - "Dungeons & Dragons Dungeon Master's Guide"
       - "Dungeons & Dragons Monster Manual"
+      - "Dungeons & Dragons Tomb of Annihilation"
     validations:
       required: true
   - type: input
