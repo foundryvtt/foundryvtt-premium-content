@@ -41,6 +41,8 @@ body:
       - "Dungeons & Dragons Monster Manual"
       - "Dungeons & Dragons Tomb of Annihilation"
       - "Dungeons & Dragons Heroes of the Borderlands"
+      - "Dungeons & Dragons Forgotten Realms: Heroes of Faerûn"
+      - "Dungeons & Dragons Forgotten Realms: Adventures in Faerûn"
     validations:
       required: true
   - type: input
