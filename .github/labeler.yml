@@ -20,6 +20,10 @@ dnd-tomb-annihilation:
     - "Dungeons & Dragons Tomb of Annihilation"
 dnd-heroes-borderlands:
     - "Dungeons & Dragons Heroes of the Borderlands"
+dnd-heroes-faerun:
+    - "Dungeons & Dragons Forgotten Realms: Heroes of Faerûn"
+dnd-adventures-faerun:
+    - "Dungeons & Dragons Forgotten Realms: Adventures in Faerûn"
 
 pf2e-beginner-box:
     - 'Pathfinder: Beginner Box'
