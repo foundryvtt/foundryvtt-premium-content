@@ -43,6 +43,7 @@ body:
       - "Dungeons & Dragons Heroes of the Borderlands"
       - "Dungeons & Dragons Forgotten Realms: Heroes of Faerûn"
       - "Dungeons & Dragons Forgotten Realms: Adventures in Faerûn"
+      - "Dungeons & Dragons Eberron: Forge of the Artificer"
     validations:
       required: true
   - type: input
