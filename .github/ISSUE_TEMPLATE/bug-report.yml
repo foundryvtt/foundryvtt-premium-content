@@ -50,6 +50,7 @@ body:
       - "Dungeons & Dragons Ravenloft: The Horrors Within"
       - "Dungeons & Dragons: Arcana Unleashed"
       - "Dungeons & Dragons: Arcana Unleashed Deadfall"
+      - "Dungeons & Dragons: World of Warcraft"
     validations:
       required: true
   - type: input
